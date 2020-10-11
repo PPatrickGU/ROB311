@@ -1,6 +1,6 @@
 # ROB 311 class project - TP4
 
-The associated code is constituted by threeparts: a simple implementation of PCA and SVM, an implementation withmake_pipelineand finally a try with the *Grid_search*. 
+The associated code is constituted by three parts: a simple implementation of PCA and SVM, an implementation withmake_pipelineand finally a try with the *Grid_search*. 
 
 In Pipeline we ensemble all the models needed and make them into one entity  to have a clearer architecture of the models. In this way all the models can also be trainedtogether. *Grid_search* is a method to find the best parameters. Before training, all the hyper-parameters are given in the grid, and the best models will be found during the training. 
 
